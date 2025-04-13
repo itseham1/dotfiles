@@ -70,3 +70,33 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PYTHONPATH="/Users/seham/code/itseham1/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc'; fi
+export GITHUB_USERNAME='itseham1'
+export BILLING_ACCOUNT='BILLING_ACCOUNT_ID'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export BILLING_ACCOUNT='BILLING_ACCOUNT_ID'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export BILLING_ACCOUNT='BILLING_ACCOUNT_ID'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export BILLING_ACCOUNT='BILLING_ACCOUNT_ID'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export BILLING_ACCOUNT='014507-F7F33C-EC450B'
+export BILLING_ACCOUNT='014507-F7F33C-EC450B'
+export MY_GPROJECT='lewagon-itseham1-ds'
+export GOOGLE_APPLICATION_CREDENTIALS='/~/code/itseham1/GCP/key.json'
+export GOOGLE_APPLICATION_CREDENTIALS='/Users/seham/code/itseham1/GCP/key.json'
+eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
+eval "$(direnv hook zsh)"

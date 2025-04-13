@@ -84,4 +84,6 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "workbench.colorTheme": "Quiet Light",
+    "security.workspace.trust.untrustedFiles": "open",
 }
